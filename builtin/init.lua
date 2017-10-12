@@ -26,10 +26,10 @@ minetest = core
 
 -- Load other files
 local scriptdir = core.get_builtin_path()
-local gamepath = scriptdir .. "game" .. DIR_DELIM
-local clientpath = scriptdir .. "client" .. DIR_DELIM
-local commonpath = scriptdir .. "common" .. DIR_DELIM
-local asyncpath = scriptdir .. "async" .. DIR_DELIM
+local gamepath = scriptdir .. DIR_DELIM .. "game" .. DIR_DELIM
+local clientpath = scriptdir .. DIR_DELIM .. "client" .. DIR_DELIM
+local commonpath = scriptdir .. DIR_DELIM .. "common" .. DIR_DELIM
+local asyncpath = scriptdir .. DIR_DELIM .. "async" .. DIR_DELIM
 
 dofile(commonpath .. "strict.lua")
 dofile(commonpath .. "serialize.lua")
